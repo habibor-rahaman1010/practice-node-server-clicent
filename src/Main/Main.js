@@ -9,6 +9,7 @@ import NotFound from '../Components/NotFound/NotFound';
 import ContextAPI from '../ContextAPI/ContextAPI';
 import UnicUser from '../Components/Users/UnicUser/UnicUser';
 import UnicBlog from '../Components/Blogs/UnicBlog/UnicBlog';
+import AddUser from '../Components/AddUser/AddUser';
 
 
 const Main = () => {
@@ -24,6 +25,10 @@ const Main = () => {
 
                         <Route exact path={"/users"}>
                             <Users></Users>
+                        </Route>
+
+                        <Route exact path={"/user/add_user"}>
+                            <AddUser></AddUser>
                         </Route>
 
                         <Route exact path={"/users/user_id/:id"}>

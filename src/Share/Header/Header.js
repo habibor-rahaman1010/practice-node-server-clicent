@@ -18,8 +18,8 @@ const Header = () => {
                         >
                             <Nav.Link className='mx-3' as={NavLink} to={"/users"} >Users</Nav.Link>
                             <Nav.Link className='mx-3' as={NavLink} to={"/blogs"}>blogs</Nav.Link>
-                            <Nav.Link className='mx-3' as={NavLink} to={"/add_user"}>Add User</Nav.Link>
-                            <Nav.Link className='mx-3' as={NavLink} to={"/add_blog"}>Add Blog</Nav.Link>
+                            <Nav.Link className='mx-3' as={NavLink} to={"/user/add_user"}>Add User</Nav.Link>
+                            <Nav.Link className='mx-3' as={NavLink} to={"/blog/add_blog"}>Add Blog</Nav.Link>
 
                         </Nav>
 
